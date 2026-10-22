@@ -5,8 +5,11 @@ talents, specialization, skills and SHD Watch ranks, and see how armor, health, 
 damage, DPS and time to kill respond, so you can plan a build before spending scarce
 in-game resources on it.
 
+<img width="1920" height="1044" alt="Main_Screen" src="https://github.com/user-attachments/assets/581962a9-00b9-4bf8-9d4b-3fbb7982c025" />
+
 > Unofficial fan tool. Not affiliated with, endorsed by or sponsored by Ubisoft or
 > Massive Entertainment. Tom Clancy's The Division 2 is a trademark of Ubisoft
+
 > Entertainment; game content and artwork belong to their owners.
 
 ## Features
