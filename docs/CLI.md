@@ -341,7 +341,7 @@ edit operation.
 
 `build simulate` (G405) plays the build through a fixed-length fight against a
 stream of the selected enemy target, re-targeting after each kill, with skills at
-their headline rates. See the [combat simulator plan](COMBAT_SIM_PLAN.md).
+their headline rates. See the combat simulator plan.
 
 ```text
 planner --json build simulate --input build.json --duration 60 --iterations 500 --seed 1
@@ -371,6 +371,8 @@ headlines, and so Build DPS, average each damaging skill over its cooldown cycle
 Since G410, `--incoming` lets the enemies fire back: `incoming` reports the time to
 the first armor break and to going down, armor breaks, the share of fights you went
 down in, damage taken and armor repaired, with the planner's Time to Armor Break.
+Since G418 and G419, `skills` entries name the `status` each use leaves on the
+target (burning, bleeding, shocked, ensnared, blinded or disoriented).
 Since G412, `--distance M` sets the target distance in meters (up to 100; 0 sets
 none) for Ranger, Close & Personal, Challenger and Pack Instincts. The result
 repeats `distance` and sets `beyondOptimalRange` past the weapon's optimal range,
@@ -447,5 +449,5 @@ specialization cascades and both skill slots. Native state/interaction tests
 continue to verify the desktop defaults through its existing API.
 
 Build comparisons, coordinated library writes and live desktop session control
-are implemented milestones in [the CLI plan](CLI_PLAN.md). Calculation coverage
+are implemented milestones in the CLI plan. Calculation coverage
 and evidence limits remain those of the selected pack.
